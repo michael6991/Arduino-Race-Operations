@@ -2,10 +2,9 @@
  * @brief The following code implements the read flash procedure
  * by directly writing to the GPIO registers of the Atmel SAM3x8e MCU.
  * By using this method, we may achieve the fastest possible logic transition
- * of the gpio (42MHz). In this code, I put   commands in order to slow
- * down the transitions, from 42 MHz to approximately 21 MHz.
+ * of the gpio (42MHz). In this code, the toggling of the IO is approximately 21 MHz.
  *
- * @author Michael Vigdorchik, Intel, 2021
+ * @author Michael Vigdorchik, 2021
  * */
 
 
